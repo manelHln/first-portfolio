@@ -1,0 +1,28 @@
+.socialMedias{
+    width: 10px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 1rem;
+}
+.socialMedias__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialMedias__icons{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.socialMedias__icons--link{
+    margin-bottom: 0.8rem;
+    color: var(--color-text);
+}
+.socialMedias__icons--link:hover{
+    filter: opacity(50%);
+}
+.socialMedias__bar{
+    width: 1px;
+    height: 90px;
+    border: 1px solid var(--color-text);
+}

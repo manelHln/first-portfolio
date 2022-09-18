@@ -1,0 +1,23 @@
+.heading{
+    display: flex;
+    align-items: center;
+}
+.heading__bar{
+    display: inline-block;
+    width: 3.5rem;
+    margin-right: 1.5rem;
+    color: var(--color-text);
+    filter: opacity(60%);
+}
+.heading__text{
+    font-family: var(--paragraph-font);
+    color: var(--color-text);
+    filter: opacity(60%);
+}
+.heading__title{
+    font-family: var(--paragraph-font);
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: 300;
+    color: var(--color-text);
+}

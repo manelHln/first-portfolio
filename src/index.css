@@ -1,0 +1,19 @@
+:root {
+  --paragraph-font: 'Montserrat', sans-serif;
+  --heading-font: 'Merryweather', serif;
+  --gradient-color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --color-bg: #002d56;
+  --color-red: #df505c;
+  --color-footer : #031B34;
+  --color-text: #81afdd;
+  --color-subtext: #FF8A71;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+  background-color: var(--color-bg);
+}

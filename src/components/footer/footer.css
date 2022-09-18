@@ -1,0 +1,9 @@
+.footer{
+    width: 100%;
+}
+.footer__container{
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--color-text);
+    filter: opacity(50%);
+}

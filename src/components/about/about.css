@@ -1,0 +1,15 @@
+.about{
+    max-width: 100%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.about__container{
+    max-width: 70%;
+}
+.about__paragraph{
+    color: var(--color-text);
+    font-size: 1rem;
+    font-family: var(--paragraph-font);
+    line-height: 1.5rem;
+}

@@ -1,0 +1,10 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Email } from "./email/Email";
+export { default as Header } from "./header/Header";
+export { default as SocialMedia } from "./socialMedia/socialMedia";
+export { default as Project } from "./project/Project";
+export { default as About } from "./about/About";
+export { default as Contact } from "./contact/Contact";
+export { default as Heading } from "./heading/Heading";
+export { default as Skills } from "./skills/Skills";
+export {default as Footer} from "./footer/Footer";

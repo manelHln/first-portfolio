@@ -1,0 +1,26 @@
+.email{
+    width: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 1rem;
+}
+.email__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    /* filter: opacity(30%); */
+}
+.email__address{
+    margin-bottom: 0.3rem;
+    font-size: .8rem;
+    width: 0px;
+    color: var(--color-text);
+    transform: rotate(-90deg);
+}
+.email__bar{
+    width: 1px;
+    height: 60px;
+    border: 1px solid var(--color-text);
+}

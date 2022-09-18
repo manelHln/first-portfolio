@@ -1,0 +1,40 @@
+.skills{
+    max-width: 100%;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.skills__box-container{
+    margin-top: 2rem;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+}
+.skills__box{
+    /* background-color: var(--color-text); */
+    padding: 1rem;
+    border: 1px solid var(--color-red);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: .7rem;
+    cursor: pointer;
+}
+.skills__box--section-one{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.skills__icon{
+    width: 20px;
+    height: 20px;
+}
+.skills__box--text{
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--color-text);
+}
